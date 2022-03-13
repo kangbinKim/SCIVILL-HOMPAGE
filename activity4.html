@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="activity2.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<title>자세한 활동</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+* {
+    font-family: 'Jua', sans-serif;
+    }
+.mytitle3{
+    font-size: 5vw;
+    
+    width: 95%;
+    height: 20vw;
+
+    color: aliceblue;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("jadonghwa.jpg");
+    background-size: cover;
+    background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+
+    border-radius: 10px;
+
+    padding-top: 20px;
+
+    margin: 10px auto 20px auto;
+}
+
+
+.a1{
+    background-color:rgba(104, 88, 88, 0.5);
+    width:95%;
+    height:95vw;
+    margin: 20px auto 15px auto;
+    margin-top: -15px;
+
+    font-size: 4vw;
+    color:black;
+
+    border-radius: 10px;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+p{
+    line-height: 5vw;
+    margin-left:10px;
+}
+
+h1 {
+    font-size: 1vw;
+    padding-left: 70vw;
+    padding-top: 2vw;
+}
+
+#cancel_2{
+    float: right;
+    right:1%;
+    top:15%;
+}
+#cancel_2:hover{
+    background-color: lightgrey;
+    border-radius: 100%;
+}
+</style>
+
+</head>
+
+<body>
+    <script src="movepage.js"></script>
+    <svg id="cancel_2" onclick="movepage('activity.html')" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+        <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+    </svg>
+    <div class="mytitle3">
+        <p>동아리실 자동화</p>
+    </div>
+    <div class="a1">
+            <p>참가자 : 김도윤, 이우주, 김강빈, 강민성, 박성민 </p>
+            <p>활동 목적 : 스마트한 동아리실 + 편리한 자동화 동아리실 </p>
+            <p>활동 상세 내용:
+                동아리실 중간에 커튼을 설치하고 자동으로 움직일 수 있게 만들어 회의실과 작업실을 구분할 계획.
+                전류의 방향을 바꿀 수 있도록하여 모터의 진행방향을 조절하고 이를 문에 부착하여 자동으로 문을 열고 닫을 수 있게 만들 것. 
+                CCTV를 설치하여 움직임이 감지되면 녹화기능을 킬 수 있게 하고 움직임이 없을 시 문을 잠글 수 있게 만드는 것. 
+                컴퓨터와 연결하여 어떤 사물함에 어떤 물건이 있는지 필요한 물건을 검색하면 바로 알려주도록 만듬. 
+                스마트 화단으로 식물을 키우면서 태양광을 활용한 전기에너지로 물과 비료를 자동으로 줄 수 있게 만듬. </p>
+    </div>
+    </div>
+</body>
+
+</html>

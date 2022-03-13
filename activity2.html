@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="activity2.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<title>자세한 활동</title>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+* {
+    font-family: 'Jua', sans-serif;
+    }
+
+.mytitle1{
+    font-size: 5vw;
+    
+    width: 95%;
+    height: 20vw;
+
+    color: aliceblue;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("3D modeling.jpeg");
+    background-size: cover;
+    background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+
+    border-radius: 10px;
+
+    padding-top: 20px;
+
+    margin: 10px auto 20px auto;
+}
+.a1{
+    background-color:rgba(104, 88, 88, 0.5);
+    width:95%;
+    height:80vw;
+    margin: 20px auto 15px auto;
+    margin-top: -15px;
+
+    font-size: 4vw;
+    color:black;
+
+    border-radius: 10px;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+p{
+    line-height: 5vw;
+    margin-left:10px;
+}
+
+h1 {
+    font-size: 1vw;
+    padding-left: 70vw;
+    padding-top: 2vw;
+}
+
+#cancel_2{
+    float: right;
+    right:1%;
+    top:15%;
+}
+#cancel_2:hover{
+    background-color: lightgrey;
+    border-radius: 100%;
+}
+</style>
+
+</head>
+
+<body>
+    <script src="movepage.js"></script>
+    <svg id="cancel_2" onclick="movepage('activity.html')" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+        <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+    </svg>
+    <div class="all">
+    <div class="mytitle1">
+        <p>자율주행 자동차 구상</p><p>&자율주행 자동차 제작</p>
+    </div>
+    <div class="a1">
+        <div class="A">
+            <p>참가자 : 강민성, 김도윤, 이우주, 박성민, 김강빈 </p>
+            <p>활동 목적: 자동차의 기본적 구조를 단순화하여 자율주행에 적합하게 제작 후 각종 센서를 활용하여 자율주행 시스템 구축</p>
+            <p>활동 상세 내용 : SketchUp 프로그램을 이용해 각종 부품의 수치를 시뮬레이션 후 제작 돌입. 
+                PVC 바디프레임을 바탕으로 전면 독립 현가방식(더블위시본), 후면 일체차축 현가방식으로 섀시 구성. 
+                파워트레인은 전기 모터와 컨트롤러로 구성. 라이다 센서와 레이더를 이용해 센서 시스템을 구축하고 
+                조향장치에 스테핑모터를 장착 등 추가 장치를 장착 후 자율주행 시스템 구축 예정.</p>
+         </div>  
+    </div>
+    </div>
+</body>
+
+</html>

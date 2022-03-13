@@ -1,0 +1,9 @@
+#cancel_2 {
+    float: right;
+    right:1%;
+    top:15%;
+}
+#cancel_2:hover{
+    background-color: lightgray;
+    border-radius: 100%;
+}

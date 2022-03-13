@@ -1,0 +1,97 @@
+#intro_image {
+    position: relative;
+}
+#cancel_2{
+    color: black;
+    float: right;
+    right:1%;
+    top:15%;
+}
+#cancel_2:hover{
+    background-color: grey;
+    border-radius: 100%;
+}
+svg {
+    width: 30;
+    height: 30;
+    fill: currentcolor;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.about_content {
+    padding-top: 5%;
+    font-size: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:30px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 25px;
+    height: 20%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+#prize { 
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+section {
+    height: 500px;
+    background: url(67ee22ab-0d1f-44cd-b808-e6d8667b08f0.url-0001.JPG) fixed;
+    background-size: 78%;
+}
+.room {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(40deg, rgb(199, 121, 208), rgb(75, 192, 200), #2b3074); -webkit-animation: huerotator 5s infinite alternate; animation: huerotator 5s infinite alternate; animation-iteration-count: infinite;}
+
+@keyframes huerotator { 0% { -webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg); } 100% { -webkit-filter: hue-rotate(360deg); filter: hue-rotate(360deg); } }
+
+
+
+h3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #intro_image {
+        height: 250px;
+    }
+    .about_content {
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    section {
+        background-size: 90%;
+        height: 200px;
+    }
+    li {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 15%;;
+    }
+    h2 {
+        margin-top: 10vw;
+        font-size: 20px;
+        text-align:center;
+    }
+    #prize { 
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: center;
+    }
+    #about_text {
+        font-size: 15px;
+    }
+    
+    
+}

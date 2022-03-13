@@ -1,0 +1,261 @@
+/*기본 구성*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* header */
+#promotion_button {
+    border-radius: 0.7em;
+}
+
+.header_logo{
+    color: white;
+    font-size: 20px;
+    background: black;
+    width: 100%;
+    height: 48px;
+    position: relative;
+}
+.menu { 
+    position: absolute;
+    right:1%;
+    top:0;
+    margin: 5px auto;
+}
+.menu:hover{
+    background-color: white;
+    color:black;
+    border-radius: 100%;
+}
+
+
+/* Promotion */
+.promotion { 
+    background: gray;
+    width: 100%;
+    position: relative;
+}
+#logo_img{
+    width: 100%;
+    height: 500px;
+}
+.promotion_text { 
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+#promotion_button {
+    width: 140%;
+    color: black;
+    height: 48px;
+    font-size: 20px;
+    box-shadow: 0 4px 16px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: all 0.4s;
+}
+#promotion_button:focus {
+    outline: none;
+}
+#promotion_button:hover {
+    background-color: black;
+    color: white;
+}
+.promotion_text p {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+/* Contest */
+.contest { 
+    background-color: lightgray; 
+    width: 100%;
+    height:300px;
+    position:relative;
+}
+.contest_button{
+    position:absolute;
+    top:8%;
+    text-align: center;
+    width: 100%;
+    height:300px;
+}
+#contest1 { 
+    color: black;
+    width:35%;
+    height:80%;
+    margin-left: 6.5%;
+    margin-right:6.5%;
+    border-radius: 30px;
+    font-size: 12px;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: all 0.4s;
+}
+#contest1:focus{
+    outline:none;
+}
+#contest1:hover{
+    background-color: black;
+    color:white;
+}
+#contest2{ 
+    color: black;
+    width:35%;
+    height:80%;
+    margin-left: 6.5%;
+    margin-right:6.5%;
+    border-radius: 30px;
+    font-size: 12px;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: all 0.4s;
+}
+#contest2:focus{
+    outline:none;
+}
+#contest2:hover{
+    background-color: black;
+    color:white;
+}
+.contest_logo{
+    width:48px;
+    height:48px;
+    padding-bottom: 10px;
+}
+
+
+/* News & Video */
+#news_image { 
+    width: 100%;
+}
+.scivill_video{
+    height: 800px;
+    position:relative;
+    text-align: center;
+    background-color: rgb(192,192,192);
+}
+#wooseok {
+    width: 80%;
+    height:90%;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+}
+.Scivill_news {
+    background-color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+/*폰 화면*/
+@media screen and (max-width:900px) {
+    .promotion_text {
+        font-size:100%;
+        color: white;
+        position: absolute;
+        top: 34%;
+        left: 5%;
+    }
+    #logo_img {
+        height: 270px;
+    }
+    .contest {
+        width: 100%;
+        height: 150px;
+    }
+    .contest_button{
+        width: 100%;
+        height: 150px;
+    }
+    .contest_logo{
+        height:24px;
+        width:24px;
+    }
+    .contest_text{
+        font-size: 16px;
+    }
+    #promotion_button{
+        width: 110%;
+        height: 110%;
+    }
+    #promotion_button_text{
+        font-size: 16px;
+    }
+    #contest1{
+        margin-left: 6.5%;
+        margin-right:6.5%;
+        border-radius: 30px;
+        font-size: 12px;
+        border-style: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        transition: all 0.4s;
+    }
+    #contest2{
+        margin-left: 6.5%;
+        margin-right:6.5%;
+        border-radius: 30px;
+        font-size: 12px;
+        border-style: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        transition: all 0.4s;
+    }
+    #contest1:focus{
+        outline:none;
+    }
+    #contest1:hover{
+        background-color: black;
+        color:white;}
+    #contest2:focus{
+            outline:none;
+        }
+    #contest2:hover{
+            background-color: black;
+            color:white;
+        }
+    .scivill_video{
+        height: 400px;
+        position:relative;
+        text-align: center;
+        background-color: rgb(192,192,192);
+    }
+    #scivill_video_text {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menupage.css">
+    <title>Scivill_menu</title>
+</head>
+<body>
+<script src="movepage.js"></script>
+    <div id="QNA_bar">
+        <button id="QNA" onclick="window.open('https://forms.gle/8uboKfhw9zBkDfjQ9')" style='cursor:pointer'>Q&A</button>
+        <svg id="cancel" onclick="movepage('index.html')" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+            <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+          </svg>
+    </div>
+    <div id="menu_ol">
+        <ol id="menu_list">
+            <li><div onclick="movepage('introduction.html')" style='cursor:pointer'><a>동아리 소개</a><a class="menu_icon">></a></div></li>
+            <li><div onclick="movepage('team.html')" style='cursor:pointer'><a> 팀</a><a class="menu_icon">></a></div></li>
+            <li><div onclick="movepage('activity.html')" style='cursor:pointer'><a>활동들</a><a class="menu_icon">></a></div></li>
+        </ol>
+    </div>
+    <div>
+        <h1 class="test">Scivill</h1>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+        </style>
+    </div>
+     <div id="sns">
+        <ul id="sns_list">
+            <li><img id="insta" onclick="window.open('https://url.kr/khl846')" src="insta.jpg" width="36" height="36" style='cursor:pointer'></li>
+            <li><svg id="facebook" onclick="window.open('https://www.facebook.com/dshsscivill')" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style='cursor:pointer'>
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg></li>
+            <li><svg id="youtube" onclick="window.open('https://www.youtube.com/c/%EB%8C%80%EC%A0%84%EB%8C%80%EC%8B%A0%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90')" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16" style='cursor:pointer'>
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg></li>
+        </ul>
+    </div>
+</body>
+</html>

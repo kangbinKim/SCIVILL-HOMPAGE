@@ -1,0 +1,117 @@
+body{
+    margin: 16px;
+    padding: 0px;
+}
+h1 {
+    text-shadow: 1px 1px pink
+}
+
+.title11{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Zone {
+display: flex;flex-wrap: wrap;
+
+margin-top: 10%;
+padding:auto;
+
+font-size:5vw;
+font-weight:bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Zone > div{
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 40px;
+    width: 50%;
+    height: 200px;
+    border: 0.5vw solid black;
+    display:flex;
+    align-items: center; /*세로 가운데로*/
+    justify-content: center;/*가로 가운데로*/
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.item1 {background-image: url(software.jpeg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+
+.item2{
+background-image: url(design.jpg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+
+.item3{
+background-image: url(elc.jpeg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+
+.item4{
+background-image: url(hardware.jpg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+.item5 {
+background-image: url(car.jpeg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+
+.item6 {
+background-image: url(teacher.jpeg);
+background-size: cover;
+background-position: center; /* 사진 넣을 때 꼭 필요한 세줄*/
+}
+
+#cancel_2{
+    float: right;
+    right:1%;
+    top:15%;
+}
+#cancel_2:hover{
+    background-color: lightgrey;
+    border-radius: 100%;
+}
+.item1:hover {
+    text-shadow: 2px 2px gray;
+}
+.item2:hover {
+    text-shadow: 2px 2px gray;
+}
+
+.item3:hover {
+    text-shadow: 2px 2px gray;
+}
+.item4:hover {
+    text-shadow: 2px 2px gray;
+}
+.item5:hover {
+    text-shadow: 2px 2px gray;
+}
+.item6:hover {
+    text-shadow: 2px 2px gray;
+}
+h1 {
+    font-family: 'Shizuru', cursive;
+}
+@media screen and (max-width:900px) {
+    button {
+        font-size: 20px;
+        width: 50%;
+        height: 70px;
+        border: 0.5vw solid black;
+        display:flex;
+        align-items: center; /*세로 가운데로*/
+        justify-content: center;/*가로 가운데로*/
+    }
+}
